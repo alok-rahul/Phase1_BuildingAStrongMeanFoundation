@@ -1,0 +1,22 @@
+p{
+    color: chartreuse;
+}
+
+/* Descendent Combinator*/
+
+div li{
+    color: green;
+}
+
+/*Child Combinator */
+
+ul > li {
+    color: blue;
+}
+
+/* Adjacent Sibling Combinator */
+
+h2 + p {
+    color: purple;
+}
+
